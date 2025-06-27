@@ -1,0 +1,31 @@
+{
+  "name": "martin-events",
+  "version": "1.0.0",
+  "description": "event management system",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start:prod": "node src/main.js",
+    "start:dev": "nodemon src/main.js",
+    "db:seed": "node src/commands/seed.command.js"
+  },
+  "author": "Martin Ikwuka",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.43.0",
+    "compression": "^1.8.0",
+    "config": "^4.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "logger": "^0.0.1",
+    "mongoose": "^8.15.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10"
+  }
+}
