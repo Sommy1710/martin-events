@@ -6,7 +6,7 @@ import {createServer} from 'http';
 import logger from '../app/middleware/logger.middleware.js';
 import { NotFoundError } from '../lib/error-definitions.js';
 import errorMiddleware from '../app/middleware/error-middleware.js';
-import {authRouter} from '../routes/api.js'
+import {authRouter} from '../routes/api.js';
 import cookieParser from 'cookie-parser';
 import config from '../config/app.config.js';
 import { getSecondsFromNow } from '../lib/util.js';
