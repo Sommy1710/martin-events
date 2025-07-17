@@ -39,7 +39,13 @@ export const permissions = {
         read: ["super admin"],
         update: ["super admin"],
         delete: ["supeer admin"],
-    }
+    },
+    auth: {
+    read: ["admin", "super admin"], 
+    create: [],
+    update: [],
+    delete: [],
+  }
 };
 
 export function getOperationType(method)

@@ -12,6 +12,9 @@ export const connectToDatabase = () =>
         case 'test':
             mongoUri = config.db.test;
             break;
+        case 'production':
+            mongoUri = config.db.production;
+            break;
         default:
             mongoUri = config.db.development;
             break;
